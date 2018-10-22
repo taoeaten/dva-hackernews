@@ -90,6 +90,7 @@ export default {
         fetchItems,
         ids.slice(itemsPerPage * (page - 1), itemsPerPage * page),
       );
+      console.log(items);
       yield put({ type: 'saveList', payload: { ids, type } });
       yield put({ type: 'saveItems', payload: items });
     },
