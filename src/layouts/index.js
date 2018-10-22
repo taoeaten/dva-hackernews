@@ -9,11 +9,11 @@ const Layout = (props) => {
           <NavLink to="/">
             <img alt="presentation" className={styles.logo} src="https://zos.alipayobjects.com/rmsportal/AsASAiphPWWUJWG.png" />
           </NavLink>
-          <NavLink activeClassName={styles.active} to="/top">文章</NavLink>
-          <NavLink activeClassName={styles.active} to="/new">公告</NavLink>
+          <NavLink activeClassName={styles.active} to="/top">热门文章</NavLink>
+          <NavLink activeClassName={styles.active} to="/new">市场公告</NavLink>
           <NavLink activeClassName={styles.active} to="/show">公众号</NavLink>
           <NavLink activeClassName={styles.active} to="/ask">问答</NavLink>
-          <NavLink activeClassName={styles.active} to="/job">求职</NavLink>
+          <NavLink activeClassName={styles.active} to="/job">求职招聘</NavLink>
           {/* <span className={styles.github}>
             Built with <a rel="noopener noreferrer" href="https://github.com/umijs/umi" target="_blank">Umi</a> and <a rel="noopener noreferrer" href="https://github.com/dvajs/dva" target="_blank">Dva</a>
           </span> */}
